@@ -2,12 +2,9 @@ import React, {useEffect} from 'react';
 import {Fade, Slide} from 'react-reveal';
 import './styles.scss';
 import MainNav from "../../components/MainNav";
-import {Col, Row, Container} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 
 import Background from '../../assets/images/background_01.jpg';
-import ImgBox1 from '../../assets/images/inner_11.jpg';
-import ImgBox2 from '../../assets/images/inner_12.jpg';
-import ImgBox3 from '../../assets/images/inner_13.jpg';
 
 import ImgSales1 from '../../assets/images/phone-ring.png';
 import ImgSales2 from '../../assets/images/worenty.png';
@@ -17,7 +14,7 @@ import inner_blue_02 from '../../assets/images/inner_blue_02.jpg';
 
 
 
-import Brands from "../../components/Brands";
+import AboutUsSection from "../../components/AboutUsSection";
 import BlueQuoteStripe  from '../../components/BlueQuoteStripe';
 import ServiceBoxes  from '../../components/ServiceBoxes';
 import configs from "../../assets/configs";
@@ -27,7 +24,7 @@ import OUR_GOAL from '../../assets/images/OUR-GOAL.jpg';
 import OUR_CLIENTS from '../../assets/images/OUR-CLIENTS.jpg';
 import OUR_PRIMARY_PURPOSE from '../../assets/images/OUR-PRIMARY-PURPOSE.jpg';
 
-import BestHVACImg from '../../assets/images/air-conditioner-installation-Best-HVAC.jpg';
+import bg2 from '../../assets/images/home-img3.jpg';
 
 import AC_INSTALLATION from '../../assets/images/AC_INSTALLATION.jpg';
 import AC_REPAIR from '../../assets/images/AC_REPAIR.jpg';
@@ -37,26 +34,22 @@ import Footer from '../../components/Footer';
 
 const Home = (props) => {
     const setStyle = {
-        backgroundImage: "url(" + Background + ")",
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh'
+        backgroundImage: "url(" + Background + ")"
     };
     useEffect( () =>{
-        document.title = `${configs.companyName} | HVAC professionals in ${configs.greatCity} and surrounding areas`;
+        document.title = `${configs.companyName} | Professional electrical services in ${configs.greatCity} and surrounding areas`;
     });
     return (
         <div className="page-wrapper">
-            <div style={setStyle}>
+            <div style={setStyle} className="page-wrapper-content">
                 <MainNav/>
                 <div className="container">
                     <div className="header-wrapper">
-                        <div style={{maxWidth: '600px'}}>
+                        <div style={{maxWidth: '600px'}} className="header-content">
                             <Fade left cascade>
                                 <h1 className="">
-                                    <span className="blue-text">Air Conditioning</span> <br/>
-                                    and <span className="blue-text">HVAC</span> Services
+                                    Professional <span className="blue-text">Electricians</span> <br/>
+                                     in <span className="blue-text">{configs.greatCity}</span>
                                 </h1>
                             </Fade>
                             <Fade>
@@ -172,7 +165,7 @@ const Home = (props) => {
                 </Fade>
                 <div className="ac-section">
                     <Slide left>
-                        <div className="ac-section-left" style={{backgroundImage: `url(${BestHVACImg})`}} >
+                        <div className="ac-section-left" style={{backgroundImage: `url(${bg2})`}} >
                             <div className="ac-section-left-content">
                                 {/*<h3>Trusted & Proud</h3>*/}
                                 {/*<p>We have over 15 years experience in the air conditioning industry.</p>*/}
@@ -182,8 +175,8 @@ const Home = (props) => {
                     <Slide right>
                         <div className="ac-section-right">
                             <div className="ac-section-right-content">
-                                <h3><span>HVAC</span> Services</h3>
-                                <p>Whether it is a large or a small project, if it is related to HVAC, then our team of experts is here to cater
+                                <h3><span>Electrician</span> Services</h3>
+                                <p>Whether it is a large or a small project, if it is related to Electricity, then our team of experts is here to cater
                                     to your specific requirements.</p>
                                 <Row>
                                     <Col xs={12}>
@@ -225,7 +218,7 @@ const Home = (props) => {
                     </Slide>
                 </div>
                 <BlueQuoteStripe/>
-                <Brands/>
+                <AboutUsSection/>
                 <Footer/>
             </div>
         </div>

@@ -44,11 +44,12 @@ const Footer = () => {
                         <Col xs={12} sm={6} md={3}>
                             <h3><BuildIcon/> Our Services</h3>
                             <ul className="services-info">
-                                <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/air-conditioning`}>Air Conditioning</Nav.Link></li>
-                                <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/heating`}>Heating</Nav.Link></li>
-                                <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/air-quality`}>Air Quality</Nav.Link></li>
-                                <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/water-heaters`}>Water Heaters</Nav.Link></li>
-                                <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/commercial-services`}>Commercial Services</Nav.Link></li>
+                                <li><a href={`${process.env.PUBLIC_URL}/service/residential`}>Residential</a></li>
+                                <li><a href={`${process.env.PUBLIC_URL}/service/commercial`}>Commercial</a></li>
+                                <li><a href={`${process.env.PUBLIC_URL}/service/electrical-inspections`}>Electrical Inspections</a></li>
+                                <li><a href={`${process.env.PUBLIC_URL}/service/generator-services`}>Generator Services</a></li>
+                                <li><a href={`${process.env.PUBLIC_URL}/service/lighting-services`}>Lighting Services</a></li>
+                                <li><a href={`${process.env.PUBLIC_URL}/service/new-installation`}>New Installation</a></li>
                             </ul>
                         </Col>
                         <Col xs={12} sm={6} md={3}>

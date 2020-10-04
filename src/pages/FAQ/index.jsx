@@ -18,7 +18,7 @@ const FAQ = (props) => {
         backgroundRepeat: 'no-repeat',
     };
     useEffect( () =>{
-        document.title = `${configs.companyName} | HVAC professionals in ${configs.greatCity} and surrounding areas`;
+        document.title = `${configs.companyName} | Professional electrical services in ${configs.greatCity} and surrounding areas`;
     });
     return (
         <div className="page-wrapper">
@@ -32,87 +32,88 @@ const FAQ = (props) => {
                         <Row>
                             <Col md={8}>
                                 <Accordion defaultActiveKey="0">
-                                    <Card>
-                                        <Accordion.Toggle as={Card.Header} eventKey="0">
-                                            <LiveHelpIcon/>
-                                            How to keep the furnace working well?
+                                    <Card><Accordion.Toggle as={Card.Header} eventKey="0">
+                                        <LiveHelpIcon/>
+                                            How do I know that I have to call an electrician?
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="0">
                                             <Card.Body>
                                                 <QuestionAnswerIcon/>
-                                                You can ensure the best-ever working condition of the furnace at your residential or commercial
-                                                property through regular care and maintenance services by our experts at {configs.greatCity}. Our
-                                                dedicated efforts will help in maximizing the overall lifespan of the heating furnace while improving its
-                                                efficiency at the same time.
+                                                There are some red flags that could indicate that you require assistance from a professional
+                                                electrician. Blown fuses, triggered circuit breakers, flickering lights, and others are some of the
+                                                common signs of an electrical failure. However, there could be some other signs as well wherein
+                                                you would like to consider professional services from Mario Power Inc.
                                             </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
-                                    <Card>
-                                        <Accordion.Toggle as={Card.Header} eventKey="1">
-                                            <LiveHelpIcon/>
-                                            How can I improve the efficiency and life of the HVAC units at my home??
+
+                                    <Card><Accordion.Toggle as={Card.Header} eventKey="1">
+                                        <LiveHelpIcon/>
+                                            How much electrical work can I do on my own?
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="1">
                                             <Card.Body>
                                                 <QuestionAnswerIcon/>
-                                                One of the most important things to consider is cleaning and replacing the filters as frequently as
-                                                possible. For the best outcomes, you should always trust professional results delivered by HVAC experts
-                                                at {configs.greatCity}.
+                                                Indeed, DIY electrical tricks are enticing. However, they also come with potential risks of
+                                                harming yourself in the process. Therefore, you should never take up an electrical project unless
+                                                it is too urgent. You should protect yourself from the overall risk by hiring reliable electrical
+                                                services from the local experts in Toronto.
                                             </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
-                                    <Card>
-                                        <Accordion.Toggle as={Card.Header} eventKey="2">
-                                            <LiveHelpIcon/>
-                                            How often should I ensure maintenance for my air conditioner?
+
+                                    <Card><Accordion.Toggle as={Card.Header} eventKey="2">
+                                        <LiveHelpIcon/>
+                                            How quickly can you respond to my query?
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="2">
                                             <Card.Body>
                                                 <QuestionAnswerIcon/>
-                                                You should aim at getting maintenance of the air conditioning system of your house or office at least
-                                                twice a year for optimum performance. You can trust the expertise offered by our reliable team of HVAC
-                                                experts for air conditioning solutions.
-                                            </Card.Body>
+                                                The expert electricians at Mario Power Inc. in Toronto are available round-the-clock, 24/7 for
+                                                your services. Therefore, you can consider booking an appointment in advance to be assured of
+                                                the best outcomes.
+                                                </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
-                                    <Card>
-                                        <Accordion.Toggle as={Card.Header} eventKey="3">
-                                            <LiveHelpIcon/>
-                                            How do I choose the right dehumidifier?
+
+                                    <Card><Accordion.Toggle as={Card.Header} eventKey="3">
+                                        <LiveHelpIcon/>
+                                            In case the circuit trips, is it dangerous?
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="3">
                                             <Card.Body>
                                                 <QuestionAnswerIcon/>
-                                                You can choose the right dehumidifier by considering several factors. One of the major factors to look
-                                                out for is energy efficiency and its overall performance.
-                                            </Card.Body>
+                                                Frequent breaker trips indicate that the circuit gets overloaded in the given property. An
+                                                appliance, socket, or a wire could be overheating.
+                                                </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
-                                    <Card>
-                                        <Accordion.Toggle as={Card.Header} eventKey="4">
-                                            <LiveHelpIcon/>
-                                            How can I purify air indoors?
+
+                                    <Card><Accordion.Toggle as={Card.Header} eventKey="4">
+                                        <LiveHelpIcon/>
+                                            Why do I need a generator?
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="4">
                                             <Card.Body>
                                                 <QuestionAnswerIcon/>
-                                                You can do so by hiring professional HVAC specialists from our team to receive top-class air quality
-                                                services. Our experts have relevant training as well as in-depth expertise in handling HVAC projects of all
-                                                complexities.
+                                                In Toronto, you might experience power-cut issues at some instances. Therefore, you should
+                                                consider installing a reliable power generator for your premises. You can take help from the
+                                                reliable electrical service providers in Toronto.
                                             </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>
-                                    <Card>
-                                        <Accordion.Toggle as={Card.Header} eventKey="5">
-                                            <LiveHelpIcon/>
-                                            What are the benefits of HVAC services?
+
+                                    <Card><Accordion.Toggle as={Card.Header} eventKey="5">
+                                        <LiveHelpIcon/>
+                                            What type of electrical panel does my property require?
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="5">
                                             <Card.Body>
                                                 <QuestionAnswerIcon/>
-                                                When you avail our comprehensive range of HVAC services, you can be assured that the respective air
-                                                conditioning, heating, ventilation, and heater units are functioning well and efficiently. Moreover,
-                                                proper HVAC services from time to time can also improve the overall lifespan of your HVAC units.
+                                                For your property, you should determine the amperage requirements. You should aim
+                                                calculating the average square footage of the given area and then, analyze the exact type of
+                                                electrical accessories you need for the property. Depending on your requirements, you can
+                                                reach out to our team of electrical experts in Toronto.
                                             </Card.Body>
                                         </Accordion.Collapse>
                                     </Card>

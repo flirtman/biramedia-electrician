@@ -4,7 +4,7 @@ import './styles.scss';
 import MainNav from "../../components/MainNav";
 import {Col, Row } from 'react-bootstrap';
 
-import Background from '../../assets/images/blue-hvac-bg.jpg';
+import Background from '../../assets/images/quote-bg.jpg';
 
 import ImgSales1 from '../../assets/images/phone-ring.png';
 import ImgSales2 from '../../assets/images/worenty.png';
@@ -32,10 +32,10 @@ const GetAQuote = (props) => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        height: '85vh'
+        height: '85vh',
     };
     useEffect( () =>{
-        document.title = `${configs.companyName} | HVAC professionals in ${configs.greatCity} and surrounding areas`;
+        document.title = `${configs.companyName} | Professional electrical services in ${configs.greatCity} and surrounding areas`;
     });
     return (
         <div className="page-wrapper">

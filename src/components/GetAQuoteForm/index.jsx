@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
 import {Row, Col} from 'react-bootstrap';
 import NearMeIcon from '@material-ui/icons/NearMe';
 
@@ -55,11 +54,11 @@ const MenuProps = {
 };
 
 const services = [
-    'Air Conditioning',
-    'Heating',
-    'Air Quality',
-    'Water Heaters',
-    'Commercial Services'
+    'Electrical Inspections',
+    'Generator Services',
+    'Lighting Services',
+    'New Installation',
+    'Other',
 ];
 
 const GetAQuoteForm = () => {

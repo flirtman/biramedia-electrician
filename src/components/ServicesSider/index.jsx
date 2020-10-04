@@ -1,8 +1,7 @@
 import React from "react";
 import './styles.scss';
-import BuildIcon from "@material-ui/icons/Build";
 import configs from "../../assets/configs";
-import {Nav, NavDropdown} from "react-bootstrap";
+import {Nav} from "react-bootstrap";
 
 const ServicesSider = () => {
   return (
@@ -10,11 +9,12 @@ const ServicesSider = () => {
           <div className="services-sider-wrap">
               <h2>Services</h2>
               <ul>
-                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/air-conditioning`}>Air Conditioning</Nav.Link></li>
-                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/heating`}>Heating</Nav.Link></li>
-                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/air-quality`}>Air Quality</Nav.Link></li>
-                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/water-heaters`}>Water Heaters</Nav.Link></li>
-                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/commercial-services`}>Commercial Services</Nav.Link></li>
+                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/residential`}>Residential</Nav.Link></li>
+                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/commercial`}>Commercial</Nav.Link></li>
+                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/electrical-inspections`}>Electrical Inspections</Nav.Link></li>
+                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/generator-services`}>Generator Services</Nav.Link></li>
+                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/lighting-services`}>Lighting Services</Nav.Link></li>
+                  <li><Nav.Link href={`${process.env.PUBLIC_URL}/service/new-installation`}>New Installation</Nav.Link></li>
               </ul>
           </div>
           <a className="call-now" href={`tel:${configs.phone}`}><strong><big>{configs.phone}</big></strong></a>

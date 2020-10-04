@@ -1,4 +1,3 @@
-import React from "react";
 import queryString from 'query-string';
 
 let url = window.location.search;
@@ -19,9 +18,9 @@ else {
     configs = {
         phone : "514-571-9094",
         email : "demo@gmail.com",
-        companyName: "HVAC Montreal Solutions",
+        companyName: "Mario Power Inc.",
         companyAddress: "6555 Avenue Kildair, Cote-Saint-Luc, QC",
-        greatCity: "Montreal"
+        greatCity: "Edmonton"
     };
 }
 

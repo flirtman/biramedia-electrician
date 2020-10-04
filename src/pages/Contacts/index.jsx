@@ -34,7 +34,7 @@ const Contacts = (props) => {
         height: '85vh'
     };
     useEffect( () =>{
-        document.title = `${configs.companyName} | HVAC professionals in ${configs.greatCity} and surrounding areas`;
+        document.title = `${configs.companyName} | Professional electrical services in ${configs.greatCity} and surrounding areas`;
     });
     return (
         <div className="page-wrapper">

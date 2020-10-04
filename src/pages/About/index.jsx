@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Container, Row, Col, Fade} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 import './styles.scss';
 import MainNav from "../../components/MainNav";
@@ -13,9 +13,9 @@ import configs from "../../assets/configs";
 
 import ServiceBoxes  from '../../components/ServiceBoxes';
 
-const About = (props) => {
+const About = () => {
     useEffect( () =>{
-        document.title = `${configs.companyName} | HVAC professionals in ${configs.greatCity} and surrounding areas`;
+        document.title = `${configs.companyName} | Professional electrical services in ${configs.greatCity} and surrounding areas`;
     });
     return (
         <div className="page-wrapper">
@@ -27,36 +27,52 @@ const About = (props) => {
                 <Row>
                     <Col md={4}>
                         <div className="image-wrap-right">
-                            <img src={Img1} style={{'width' : '100%'}}/>
+                            <img src={Img1} style={{'width' : '100%'}} alt=""/>
                         </div>
                     </Col>
                     <Col md={8}>
                         <h2>{configs.companyName}</h2>
-                        <p className="p-large">
-                            {configs.companyName} is a leading service provider of top-class HVAC services across {configs.greatCity}. We
-                            deliver professional on-site services for all possible models as well as makes of industrial, residential,
-                            and commercial equipment for air conditioning, ventilation, and heating. Get access to top-class HVAC
-                            services in {configs.greatCity} with our help!
+                        <p>
+                           {configs.companyName} is a leading electrical services provider in {configs.greatCity} for a wide range of residential and
+                            commercial clients. Our in-depth knowledge of local {configs.greatCity} local codes as well as infrastructure is
+                            something that makes us a great choice for any electrical-related tasks –right from complex installations
+                            to routine maintenance.
                         </p>
-                        <p>As a full-service HVAC provider, {configs.companyName} has been assisting residential as well as
-                            commercial units with consistent HVAC solutions throughout the year. At the heart of our unparalleled
-                            range of professional services is the expertise of our expert team that is capable of deeply
-                            understanding the in-depth concepts of heating, cooling, and ventilation. With {configs.companyName},
-                            you have access to a reliable partner for ensuring that your property is efficient and
-                            functional.</p>
-                        <h2>How do We Stand Out?</h2>
-                        <p>For most of our clients, they end up expecting the respective HVAC systems to go on working. This is the
-                            assurance that we bring on the table while serving them. When it comes to delivering HVAC solutions,
-                            you will always be assured that your HVAC systems are in good, professional hands.</p>
-                        <p>With multiple options to choose from in {configs.greatCity} with respect to HVAC services, it can be a tough task
-                            to choose the best one out there. {configs.companyName} provides professional services involving skills
-                            and several years of expertise in the given field.</p>
-                        <p>Due to our strong commitment towards delivering the highest quality of services, we are able to
-                            constantly grow our client base. We are currently serving a myriad of both residential as well as
-                            commercial units with our innovative range of HVAC solutions.</p>
-                        <p><small>We are based in {configs.greatCity} and aim at delivering top-quality cooling, heating, ventilation, and air quality
-                            services to the local as well as surrounding area.</small></p>
-                        <img src={Img2} alt="" className="customer-satisfaction"/>
+                        <p>
+                           {configs.companyName} serves to be the ultimate contractor for electrical services –both residential as well as
+                            commercial properties across {configs.greatCity} area. On the residential front, we help house owners with
+                            everything related to electrical solutions –including addition of outlets to electrical installations, dealing
+                            with electrical issues, and so more. For residential clients in {configs.greatCity}, we are also capable of undertaking
+                            complicated projects –including generator installation, rewiring for the full home, and so more.
+                        </p>
+                        <p>
+                            Our services with {configs.greatCity} commercial clients include in-depth stages of planning and execution of high-
+                            end electrical solutions for industrial complexes, retail units, and institutional buildings. Additionally, we
+                            are also reliable service providers of routine maintenance solutions to ensure that your electrical
+                            systems are safe & efficient.
+                        </p>
+                        <h2>Why We Stand Out?</h2>
+                        <p>
+                            At {configs.companyName}, we never aim at making compromises on the overall quality of services that we
+                            deliver. When you go for choosing our professional range of electrical services in {configs.greatCity}, here are some
+                            benefits that you can obtain out of the same:
+                        </p>
+                        <ul>
+                            <li>
+                                Local Understanding: Our team of local electricians has in-depth local knowledge –about specific
+                                norms or standards that are required to be followed.
+                            </li>
+                            <li>
+                                Electrical Knowledge: Our electricians are also highly knowledgeable and well-versed in the
+                                given field to deliver optimized services.
+                            </li>
+                            <li>
+                                Competitive pricing: We value our clients highly. Therefore, we follow a transparent, affordable
+                                pricing policy for our comprehensive range of electrical services in {configs.greatCity}.
+                            </li>
+                        </ul>
+                        <p><strong>Get the most of our electrical services in {configs.greatCity} for optimized results.</strong></p>
+                        <img src={Img2} className="customer-satisfaction" alt=""/>
                         <div className="button-blue">
                             <a href={`${process.env.PUBLIC_URL}/get-a-quote`}>Request Service</a>
                         </div>

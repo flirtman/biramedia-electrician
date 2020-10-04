@@ -40,64 +40,69 @@ const IMAGES = [
         src: img1,
         thumbnail: thumbImg1,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img2,
         thumbnail: thumbImg2,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img3,
         thumbnail: thumbImg3,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img4,
         thumbnail: thumbImg4,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img5,
         thumbnail: thumbImg5,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img6,
         thumbnail: thumbImg6,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img7,
         thumbnail: thumbImg7,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img8,
         thumbnail: thumbImg8,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img9,
         thumbnail: thumbImg9,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
     {
         src: img10,
         thumbnail: thumbImg10,
         thumbnailWidth: 320,
+        thumbnailHeight: 182
     },
 ];
 
 
 
 const Gallery = (props) => {
-    const setStyle = {
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-    };
     useEffect( () =>{
-        document.title = `${configs.companyName} | HVAC professionals in ${configs.greatCity} and surrounding areas`;
+        document.title = `${configs.companyName} | Professional electrical services in ${configs.greatCity} and surrounding areas`;
     });
     return (
         <div className="page-wrapper">
@@ -109,12 +114,12 @@ const Gallery = (props) => {
                             <h1>Gallery</h1>
                         </div>
                         <Row>
-                            <Col md={8}>
+                            <Col sm={8} md={8}>
                                 <Fade>
                                     <GalleryLib images={IMAGES}/>
                                 </Fade>
                             </Col>
-                            <Col md={4}>
+                            <Col sm={4} md={4}>
                                 <Fade>
                                     <ServicesSider/>
                                 </Fade>

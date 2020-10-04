@@ -19,9 +19,9 @@ const ServiceBoxes = () => {
                 </div>
                 <div className="box-icon"><HomeOutlinedIcon/></div>
                 <div className="box-content">
-                    <h2>HEATING</h2>
-                    <p>Trusted expert heating installation & repair.</p>
-                    <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/heating`}>Read More</a></div>
+                    <h2>Lighting Services</h2>
+                    <p>We illuminate your house & property professionally.</p>
+                    <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/lighting-services`}>Read More</a></div>
                 </div>
             </div>
             <div className="box-wrapper">
@@ -30,9 +30,9 @@ const ServiceBoxes = () => {
                 </div>
                 <div className="box-icon"><BusinessOutlinedIcon/></div>
                 <div className="box-content">
-                    <h2>AIR CONDITIONING</h2>
-                    <p>Air conditioning services of any kind.</p>
-                    <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/air-conditioning`}>Read More</a></div>
+                    <h2>New Installations</h2>
+                    <p>We deliver our services for both residential and commercial.</p>
+                    <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/new-installation`}>Read More</a></div>
                 </div>
             </div>
             <div className="box-wrapper">
@@ -41,9 +41,9 @@ const ServiceBoxes = () => {
                 </div>
                 <div className="box-icon"><BuildOutlinedIcon/></div>
                 <div className="box-content">
-                    <h2>AIR QUALITY</h2>
-                    <p>Preventative maintenance and routine care.</p>
-                    <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/air-quality`}>Read More</a></div>
+                    <h2>Electrical Inspections</h2>
+                    <p>We cover range of electrical inspections with full diligence.</p>
+                    <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/electrical-inspections`}>Read More</a></div>
                 </div>
             </div>
         </div>
