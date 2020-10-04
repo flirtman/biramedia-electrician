@@ -128,7 +128,6 @@ const Gallery = (props) => {
                     </Container>
                 </div>
                 <BlueQuoteStripe/>
-                <Brands/>
                 <Footer/>
             </div>
         </div>
