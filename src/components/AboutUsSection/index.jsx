@@ -12,8 +12,8 @@ const AboutUsSection = () => {
                     <Col xs={12} sm={12} md={6}>
                         <h3>Our Comprehensive Range of Electrical Services in <span>{configs.greatCity}</span></h3>
                         <p>
-                            {configs.companyName} strives to ensure the highest level of service as well as integrity. Reach out to {configs.greatCity}
-                            electrical experts to know more about our electrical needs. We ensure that every service contract or call
+                            {configs.companyName} strives to ensure the highest level of service as well as integrity. Reach out to {configs.greatCity} electrical
+                            experts to know more about our electrical needs. We ensure that every service contract or call
                             is always carried out by abiding to the Ontario Electrical Safety Code.
                         </p>
                         <ul>
