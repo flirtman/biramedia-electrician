@@ -110,7 +110,7 @@ const Home = (props) => {
                                             </span>
                                             <span>
                                                 <h4>SERVICE LEGENDS</h4>
-                                                <p>We are highly renowned for our bespoke HVAC services across {configs.greatCity}.</p>
+                                                <p>We are highly renowned for our bespoke electrical services across {configs.greatCity}.</p>
                                             </span>
                                         </div>
                                     </Col>
