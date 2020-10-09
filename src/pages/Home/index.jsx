@@ -97,11 +97,18 @@ const Home = (props) => {
                         <div className="about-section-left">
                             <div className="about-section-left-content">
                                 <h3>Who <span>We</span> Are</h3>
-                                <p>We serve to be your one-stop destination for all the HVAC services that you might be looking for.</p>
-                                <p>You only tend to pay attention to the HVAC system when it breaks down. With <strong>{configs.companyName}</strong>, you can look forward
-                                    to getting it up and running effectively at your premise. Being a licensed
-                                    and specialized service provider of top-notch HVAC solutions, we can resolve all types of ventilation, air
-                                    conditioning, and heating problems.</p>
+                                <p>
+                                    For all your electrical needs in the entire Greater {configs.greatCity} area, you can count on the professional
+                                    services and experienced electricians from {configs.companyName}. With several years of relevant experience,
+                                    and being trusted services in several homes as well as businesses, you can be assured of a highly friendly
+                                    and customer-centric experience that you can come across in {configs.greatCity}.
+                                </p>
+                                <p>
+                                    All our work serves to be unconditionally guaranteed and completed as per the Safety
+                                    Standards with diligence and care. We aim at producing work of the highest professional standards in
+                                    the given industry. We are also experts in offering 24/7 emergency services when it comes to residential
+                                    or commercial electrical services in {configs.greatCity}.
+                                </p>
                                 <Row>
                                     <Col xs={12} sm={6}>
                                         <div className="about-section-left-content-point-wrap">
@@ -110,7 +117,8 @@ const Home = (props) => {
                                             </span>
                                             <span>
                                                 <h4>SERVICE LEGENDS</h4>
-                                                <p>We are highly renowned for our bespoke electrical services across {configs.greatCity}.</p>
+                                                <p>We are highly renowned for our bespoke
+                                                    electrician services across {configs.greatCity}.</p>
                                             </span>
                                         </div>
                                     </Col>
@@ -121,7 +129,8 @@ const Home = (props) => {
                                             </span>
                                             <span>
                                                 <h4>OUR GOAL</h4>
-                                                <p>We are committed to serving our clients with top-notch HVAC installation and repair services across residential and commercial premises.</p>
+                                                <p>We are committed to serving our clients with top-notch electrical installation and
+                                                    repair services across residential and commercial premises.</p>
                                             </span>
                                         </div>
                                     </Col>
@@ -134,7 +143,8 @@ const Home = (props) => {
                                             </span>
                                             <span>
                                                 <h4>OUR CLIENTS</h4>
-                                                <p>We cater to both residential as well as commercial units with our professional range of services.</p>
+                                                <p>We cater to both residential as well as commercial
+                                                    units with our professional range of services.</p>
                                             </span>
                                         </div>
                                     </Col>
@@ -145,7 +155,8 @@ const Home = (props) => {
                                             </span>
                                             <span>
                                                 <h4>OUR PRIMARY PURPOSE</h4>
-                                                <p>We aim at providing top-class experiences to our clients through the installation, repair, replacement, and maintenance of HVAC systems.</p>
+                                                <p>We aim at providing top-class experiences to our clients through the
+                                                    installation, repair, replacement, and maintenance of electrical systems.</p>
                                             </span>
                                         </div>
                                     </Col>
@@ -157,7 +168,7 @@ const Home = (props) => {
                         <div className="about-section-right" style={{backgroundImage: `url(${inner_blue_02})`}} >
                             <div className="about-section-right-content">
                                 <h3>Trusted & Proud</h3>
-                                <p>We have over 15 years experience in the air conditioning industry.</p>
+                                <p>We have over 15 years experience in providing electrician services.</p>
                             </div>
                         </div>
                     </Slide>
@@ -176,8 +187,14 @@ const Home = (props) => {
                         <div className="ac-section-right">
                             <div className="ac-section-right-content">
                                 <h3><span>Electrician</span> Services</h3>
-                                <p>Whether it is a large or a small project, if it is related to Electricity, then our team of experts is here to cater
-                                    to your specific requirements.</p>
+                                <p>
+                                    Are you searching for an experienced electrician in {configs.greatCity}? Then, you should inquire no further than
+                                    {configs.companyName}. Having over a decade of relevant expertise in the electrical industry, we have garnered
+                                    a high-end reputation to serve as the premium-range electrical service provider in {configs.greatCity}. Our
+                                    company boasts a team of highly skilled and well-trained electricians featuring the highest possible
+                                    standards. For over a decade, we have been delivering top-class electrical services for both residents as
+                                    well as businesses in and around {configs.greatCity}.
+                                </p>
                                 <Row>
                                     <Col xs={12}>
                                         <div className="ac-section-right-content-point-wrap">
@@ -185,8 +202,8 @@ const Home = (props) => {
                                                 <img src={AC_INSTALLATION} alt=""/>
                                             </span>
                                             <span>
-                                                <h4>Air Conditioning:</h4>
-                                                <p>We ensure that your property is cool and breezy throughout summers through our air conditioning services.</p>
+                                                <h4>Residential Electrician Services:</h4>
+                                                <p>Trusted experts delivering residential electrician services.</p>
                                             </span>
                                         </div>
                                     </Col>
@@ -196,8 +213,8 @@ const Home = (props) => {
                                                 <img src={AC_REPAIR} alt=""/>
                                             </span>
                                             <span>
-                                                <h4>Heating:</h4>
-                                                <p>If you are not satisfied with the performance of the heating unit, you can reach out to us for advanced solutions.</p>
+                                                <h4>Commercial Electrician Services:</h4>
+                                                <p>for all types of commercial settings and installations.</p>
                                             </span>
                                         </div>
                                     </Col>
@@ -207,8 +224,8 @@ const Home = (props) => {
                                                 <img src={AC_MAINTENANCE} alt=""/>
                                             </span>
                                             <span>
-                                                <h4>Air Quality:</h4>
-                                                <p>With us, you can access a reliable team of air quality service provider to deal with molds, dust, allergens, and pollen issues.</p>
+                                                <h4>Electrical Installation:</h4>
+                                                <p>For top-notch electrical installations and repairs.</p>
                                             </span>
                                         </div>
                                     </Col>
